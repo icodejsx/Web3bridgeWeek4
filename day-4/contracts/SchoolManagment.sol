@@ -84,7 +84,7 @@ contract SchoolManagement {
         require(!staffs[_staff].isSuspended, "Staff is suspended");
         uint256 salary = staffs[_staff].salary;
         token.transfer(_staff, salary);
-        // working
+      
     }
 
 }
